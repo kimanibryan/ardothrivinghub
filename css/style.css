@@ -4,6 +4,8 @@
   --highlight-gold: #bc9124;
   --background-light: #f5f5f5;
   --text-dark: #222222;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 body {
@@ -8573,64 +8575,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-/*-------------------------------------------------------------------*/
-
-/* === Boostrap Main SCSS === */
-
-/*!
- * Bootstrap v4.6.0 (https://getbootstrap.com/)
- * Copyright 2011-2021 The Bootstrap Authors
- * Copyright 2011-2021 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
-
-:root {
-    --blue: #5E50F9;
-    --indigo: #6610f2;
-    --purple: #6a008a;
-    --pink: #E91E63;
-    --red: #f96868;
-    --orange: #f2a654;
-    --yellow: #f6e84e;
-    --green: #46c35f;
-    --teal: #58d8a3;
-    --cyan: #57c7d4;
-    --white: #ffffff;
-    --gray: #6c757d;
-    --gray-dark: #0f1531;
-    --blue: #5E50F9;
-    --indigo: #6610f2;
-    --purple: #6a008a;
-    --pink: #E91E63;
-    --red: #f96868;
-    --orange: #f2a654;
-    --yellow: #f6e84e;
-    --green: #46c35f;
-    --teal: #58d8a3;
-    --cyan: #57c7d4;
-    --white: #ffffff;
-    --gray: #434a54;
-    --gray-light: #aab2bd;
-    --gray-lighter: #e8eff4;
-    --gray-lightest: #e6e9ed;
-    --black: #000000;
-    --primary: #3c37f1;
-    --secondary: #1998ff;
-    --success: #00d663;
-    --info: #00b3ff;
-    --warning: #ffe671;
-    --danger: #ff696d;
-    --light: #506690;
-    --dark: #000000;
-    --breakpoint-xs: 0;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
 *,
 *::before,
 *::after {
@@ -8644,16 +8588,7 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-article,
-aside,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section {
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
 
@@ -8678,12 +8613,7 @@ hr {
     overflow: visible;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
@@ -8693,8 +8623,7 @@ p {
     margin-bottom: 1rem;
 }
 
-abbr[title],
-abbr[data-original-title] {
+abbr[title], abbr[data-original-title] {
     text-decoration: underline;
     text-decoration: underline dotted;
     cursor: help;
@@ -8708,17 +8637,12 @@ address {
     line-height: inherit;
 }
 
-ol,
-ul,
-dl {
+ol, ul, dl {
     margin-top: 0;
     margin-bottom: 1rem;
 }
 
-ol ol,
-ul ul,
-ol ul,
-ul ol {
+ol ol, ul ul, ol ul, ul ol {
     margin-bottom: 0;
 }
 
@@ -8744,8 +8668,7 @@ small {
     font-size: 80%;
 }
 
-sub,
-sup {
+sub, sup {
     position: relative;
     font-size: 75%;
     line-height: 0;
@@ -8781,10 +8704,7 @@ a:not([href]):not([class]):hover {
     text-decoration: none;
 }
 
-pre,
-code,
-kbd,
-samp {
+pre, code, kbd, samp {
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     font-size: 1em;
 }
@@ -8840,24 +8760,18 @@ button:focus:not(:focus-visible) {
     outline: 0;
 }
 
-input,
-button,
-select,
-optgroup,
-textarea {
+input, button, select, optgroup, textarea {
     margin: 0;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
 }
 
-button,
-input {
+button, input {
     overflow: visible;
 }
 
-button,
-select {
+button, select {
     text-transform: none;
 }
 
@@ -12783,30 +12697,6 @@ input[type="button"].btn-block {
     }
 }
 
-.nav {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
-
-.nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    text-decoration: none;
-}
-
-.nav-link.disabled {
-    color: #6c757d;
-    pointer-events: none;
-    cursor: default;
-}
-
 .nav-tabs {
     border-bottom: 1px solid #dee2e6;
 }
@@ -12849,7 +12739,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #007bff;
+    background-color: var(--accent-green);
 }
 
 .nav-fill>.nav-link,
@@ -12874,38 +12764,81 @@ input[type="button"].btn-block {
 }
 
 .navbar {
+    padding: 0 1rem;  /* Reduced padding to make navbar smaller */
+    background-color: var(--accent-green);
     position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+}
+        
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    color: white !important;
+    font-size: 0.95rem;
+    display: inline-block;
+    margin-right: 1rem;
+    line-height: inherit;
+    white-space: nowrap;
 }
 
-.navbar .container,
-.navbar .container-fluid,
-.navbar .container-sm,
-.navbar .container-md,
-.navbar .container-lg,
-.navbar .container-xl {
+.navbar-brand img {
+    max-height: 50px; /* Control the logo size */
+}
+
+.nav-link {
+    padding: 0.15rem 0.2rem !important; /* Smaller padding for nav links */
+    color: white !important;
+    font-size: 0.95rem; /* Slightly smaller font size */
+}
+
+.nav-item {
+    margin: 0 0.25rem; /* Add a small margin between items */
+}
+
+.btn-contact {
+    background-color: #00e676 !important; /* Green button color from the image */
+    border-color: #00e676 !important;
+    color: white !important;
+    border-radius: 50px;
+    padding: 0.3rem 1rem !important;
+    font-weight: 500;
+}
+
+/* Smaller mobile menu icon */
+.navbar-toggler {
+    /* padding: 0.15rem 0.5rem; */
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+/* Ensure logo is visible on mobile */
+@media (max-width: 991.98px) {
+    .logo-mobile-menu {
+        max-height: 30px;
+    }
+    
+    .navbar-collapse {
+        background-color: var(--accent-green);
+        padding: 1rem;
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+.navbar .container, .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
-.navbar-brand {
-    display: inline-block;
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
-}
-
-.navbar-brand:hover,
-.navbar-brand:focus {
+.navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none;
 }
 
@@ -12939,17 +12872,7 @@ input[type="button"].btn-block {
     align-items: center;
 }
 
-.navbar-toggler {
-    padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-}
-
-.navbar-toggler:hover,
-.navbar-toggler:focus {
+.navbar-toggler:hover, .navbar-toggler:focus {
     text-decoration: none;
 }
 
