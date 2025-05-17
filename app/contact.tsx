@@ -1,6 +1,5 @@
 import { MapPin, Phone, Mail, Clock } from "lucide-react"
-
-import { Button } from "@/components/ui/button"
+import { Button } from "../components/ui/button"
 
 export const metadata = {
   title: "Contact Us - Ardo Thriving Hub",

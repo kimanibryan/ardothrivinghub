@@ -1,9 +1,8 @@
 import type React from "react"
 import Link from "next/link"
 import Image from "next/image"
-
 import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
+import { Button } from "./ui/button"
 
 export function MainNav({ className }: React.HTMLAttributes<HTMLElement>) {
   return (
