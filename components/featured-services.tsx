@@ -40,7 +40,7 @@ export function FeaturedServices() {
           </div>
         </div>
         <div className="flex justify-center mt-8">
-          <Button asChild>
+          <Button asChild size="lg" variant="secondary">
             <Link href="/services">View All Services</Link>
           </Button>
         </div>

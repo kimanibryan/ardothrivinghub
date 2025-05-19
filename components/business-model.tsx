@@ -6,7 +6,7 @@ export function BusinessModel() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Business Model</h2>
+            <h2 className="text-3xl text-primary font-bold tracking-tighter sm:text-5xl">Our Business Model</h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Discover how we create value and deliver exceptional services to our clients.
             </p>
@@ -15,7 +15,7 @@ export function BusinessModel() {
         <div className="mx-auto grid max-w-5xl gap-8 py-12 md:grid-cols-2">
           <div className="flex flex-col space-y-4 rounded-lg border bg-background p-6 shadow-sm">
             <div className="flex items-center gap-2">
-              <FileText className="h-8 w-8 text-primary" />
+              <FileText className="h-8 w-8 text-secondary" />
               <h3 className="text-xl font-bold">Research & Assessment</h3>
             </div>
             <p className="text-muted-foreground">
@@ -39,7 +39,7 @@ export function BusinessModel() {
           </div>
           <div className="flex flex-col space-y-4 rounded-lg border bg-background p-6 shadow-sm">
             <div className="flex items-center gap-2">
-              <Calendar className="h-8 w-8 text-primary" />
+              <Calendar className="h-8 w-8 text-secondary" />
               <h3 className="text-xl font-bold">Event Management</h3>
             </div>
             <p className="text-muted-foreground">
@@ -63,7 +63,7 @@ export function BusinessModel() {
           </div>
           <div className="flex flex-col space-y-4 rounded-lg border bg-background p-6 shadow-sm">
             <div className="flex items-center gap-2">
-              <Truck className="h-8 w-8 text-primary" />
+              <Truck className="h-8 w-8 text-secondary" />
               <h3 className="text-xl font-bold">Fleet Management & Logistics</h3>
             </div>
             <p className="text-muted-foreground">
@@ -87,7 +87,7 @@ export function BusinessModel() {
           </div>
           <div className="flex flex-col space-y-4 rounded-lg border bg-background p-6 shadow-sm">
             <div className="flex items-center gap-2">
-              <GraduationCap className="h-8 w-8 text-primary" />
+              <GraduationCap className="h-8 w-8 text-secondary" />
               <h3 className="text-xl font-bold">Youth Employment & Skills Development</h3>
             </div>
             <p className="text-muted-foreground">

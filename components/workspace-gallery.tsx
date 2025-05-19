@@ -21,7 +21,7 @@ export function WorkspaceGallery() {
               height={400}
               className="aspect-video object-cover"
             />
-            <p className="mt-2 text-center text-sm font-medium">Hot Desk Area</p>
+            <p className="mt-2 text-center text-primary text-sm font-medium">Hot Desk Area</p>
           </div>
           <div className="overflow-hidden rounded-lg">
             <Image
@@ -31,7 +31,7 @@ export function WorkspaceGallery() {
               height={400}
               className="aspect-video object-cover"
             />
-            <p className="mt-2 text-center text-sm font-medium">Dedicated Desks</p>
+            <p className="mt-2 text-center text-primary text-sm font-medium">Dedicated Desks</p>
           </div>
           <div className="overflow-hidden rounded-lg">
             <Image
@@ -41,7 +41,7 @@ export function WorkspaceGallery() {
               height={400}
               className="aspect-video object-cover"
             />
-            <p className="mt-2 text-center text-sm font-medium">Private Office</p>
+            <p className="mt-2 text-center text-primary text-sm font-medium">Private Office</p>
           </div>
           <div className="overflow-hidden rounded-lg">
             <Image
@@ -51,7 +51,7 @@ export function WorkspaceGallery() {
               height={400}
               className="aspect-video object-cover"
             />
-            <p className="mt-2 text-center text-sm font-medium">Conference/Meeting Room</p>
+            <p className="mt-2 text-center text-primary text-sm font-medium">Conference/Meeting Room</p>
           </div>
           <div className="overflow-hidden rounded-lg">
             <Image
@@ -61,7 +61,7 @@ export function WorkspaceGallery() {
               height={400}
               className="aspect-video object-cover"
             />
-            <p className="mt-2 text-center text-sm font-medium">Event Space</p>
+            <p className="mt-2 text-center text-primary text-sm font-medium">Event Space</p>
           </div>
           <div className="overflow-hidden rounded-lg">
             <Image
@@ -71,7 +71,7 @@ export function WorkspaceGallery() {
               height={400}
               className="aspect-video object-cover"
             />
-            <p className="mt-2 text-center text-sm font-medium">Collaborative Area</p>
+            <p className="mt-2 text-center text-primary text-sm font-medium">Collaborative Area</p>
           </div>
         </div>
       </div>

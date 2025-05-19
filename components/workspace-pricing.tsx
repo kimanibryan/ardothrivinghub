@@ -43,7 +43,7 @@ export function WorkspacePricing() {
               </li>
             </ul>
             <div className="mt-6">
-              <Button asChild className="w-full">
+              <Button asChild className="w-full" variant="secondary">
                 <Link href="/contact">Book Now</Link>
               </Button>
             </div>
@@ -84,7 +84,7 @@ export function WorkspacePricing() {
               </li>
             </ul>
             <div className="mt-6">
-              <Button asChild className="w-full">
+              <Button asChild className="w-full" variant="secondary">
                 <Link href="/contact">Book Now</Link>
               </Button>
             </div>
@@ -122,7 +122,7 @@ export function WorkspacePricing() {
               </li>
             </ul>
             <div className="mt-6">
-              <Button asChild className="w-full">
+              <Button asChild className="w-full" variant="secondary">
                 <Link href="/contact">Book Now</Link>
               </Button>
             </div>

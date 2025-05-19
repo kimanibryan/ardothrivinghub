@@ -18,15 +18,13 @@ export function ContactInfo() {
           <div>
             <h4 className="font-bold">Phone</h4>
             <p className="text-muted-foreground">+123 456 7890</p>
-            <p className="text-muted-foreground">+123 456 7891</p>
           </div>
         </div>
         <div className="flex items-start space-x-4">
           <Mail className="h-6 w-6 text-primary flex-shrink-0 mt-0.5" />
           <div>
             <h4 className="font-bold">Email</h4>
-            <p className="text-muted-foreground">info@ardothrivehub.com</p>
-            <p className="text-muted-foreground">support@ardothrivehub.com</p>
+            <p className="text-muted-foreground">info@ath-som.org</p>
           </div>
         </div>
         <div className="flex items-start space-x-4">

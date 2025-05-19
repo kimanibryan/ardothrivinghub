@@ -71,7 +71,7 @@ export function FeaturedWorkspaces() {
           </div>
         </div>
         <div className="flex justify-center">
-          <Button asChild>
+          <Button asChild size="lg" variant="secondary">
             <Link href="/workspaces">View All Workspaces</Link>
           </Button>
         </div>

@@ -18,7 +18,7 @@ export function Hero() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button asChild size="lg">
+              <Button asChild size="lg" variant="secondary">
                 <Link href="/workspaces">Explore Workspaces</Link>
               </Button>
               <Button asChild variant="outline" size="lg">
@@ -27,7 +27,7 @@ export function Hero() {
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <div className="relative h-[450px] w-[450px] sm:h-[500px] sm:w-[500px] lg:h-[550px] lg:w-[550px]">
+            <div className="relative h-[350px] w-[450px] sm:h-[400px] sm:w-[500px] lg:h-[450px] lg:w-[550px]">
               <Image
                 src="/images/somali women workspace.jpg"
                 alt="Ardo Thriving Hub Workspace"

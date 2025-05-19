@@ -16,30 +16,6 @@ export function ClientsPartners() {
           <div className="flex flex-col items-center space-y-2">
             <div className="relative h-20 w-40">
               <Image
-                src="/placeholder.svg?height=80&width=160"
-                alt="Partner Logo"
-                width={160}
-                height={80}
-                className="object-contain"
-              />
-            </div>
-            <p className="text-center font-medium">Local University</p>
-          </div>
-          <div className="flex flex-col items-center space-y-2">
-            <div className="relative h-20 w-40">
-              <Image
-                src="/images/coinbase.svg"
-                alt="Partner Logo"
-                width={160}
-                height={80}
-                className="object-contain"
-              />
-            </div>
-            <p className="text-center font-medium">Tech Incubator</p>
-          </div>
-          <div className="flex flex-col items-center space-y-2">
-            <div className="relative h-20 w-40">
-              <Image
                 src="/images/logo-black.png"
                 alt="Partner Logo"
                 width={160}
@@ -52,7 +28,7 @@ export function ClientsPartners() {
           <div className="flex flex-col items-center space-y-2">
             <div className="relative h-20 w-40">
               <Image
-                src="/placeholder.svg?height=80&width=160"
+                src="/images/netflix.svg"
                 alt="Partner Logo"
                 width={160}
                 height={80}
@@ -64,31 +40,7 @@ export function ClientsPartners() {
           <div className="flex flex-col items-center space-y-2">
             <div className="relative h-20 w-40">
               <Image
-                src="/placeholder.svg?height=80&width=160"
-                alt="Partner Logo"
-                width={160}
-                height={80}
-                className="object-contain"
-              />
-            </div>
-            <p className="text-center font-medium">Local Government</p>
-          </div>
-          <div className="flex flex-col items-center space-y-2">
-            <div className="relative h-20 w-40">
-              <Image
-                src="/images/netflix.svg"
-                alt="Partner Logo"
-                width={160}
-                height={80}
-                className="object-contain"
-              />
-            </div>
-            <p className="text-center font-medium">Corporate Sponsor</p>
-          </div>
-          <div className="flex flex-col items-center space-y-2">
-            <div className="relative h-20 w-40">
-              <Image
-                src="/images/"
+                src="/images/coinbase.svg"
                 alt="Partner Logo"
                 width={160}
                 height={80}

@@ -26,19 +26,19 @@ export function WorkspacesList() {
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>Access during business hours</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>High-speed internet and power outlets</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>Access to common areas and amenities</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>Complimentary refreshments</span>
                 </li>
               </ul>
@@ -86,19 +86,19 @@ export function WorkspacesList() {
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>Fully furnished private office space</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>24/7 secure access</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>Dedicated phone line and business address</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>Priority booking for meeting rooms</span>
                 </li>
               </ul>
@@ -146,19 +146,19 @@ export function WorkspacesList() {
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>Flexible layouts for up to 100 people</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>Professional AV equipment and support</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>Event planning assistance</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                  <CheckCircle2 className="h-5 w-5 text-secondary flex-shrink-0 mt-0.5" />
                   <span>Catering and refreshment options</span>
                 </li>
               </ul>

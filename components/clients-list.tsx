@@ -17,7 +17,7 @@ export function ClientsList() {
           <div className="grid gap-6 md:grid-cols-2 md:gap-12">
             <div className="flex flex-col justify-center space-y-4">
               <div className="flex items-center gap-2">
-                <HeartHandshake className="h-8 w-8 text-primary" />
+                <HeartHandshake className="h-8 w-8 text-secondary" />
                 <h3 className="text-2xl font-bold">Humanitarian Workers</h3>
               </div>
               <p className="text-muted-foreground">
@@ -54,7 +54,7 @@ export function ClientsList() {
             </div>
             <div className="flex flex-col justify-center space-y-4 md:order-1">
               <div className="flex items-center gap-2">
-                <Users className="h-8 w-8 text-primary" />
+                <Users className="h-8 w-8 text-secondary" />
                 <h3 className="text-2xl font-bold">Freelancers & Remote Workers</h3>
               </div>
               <p className="text-muted-foreground">
@@ -73,7 +73,7 @@ export function ClientsList() {
           <div className="grid gap-6 md:grid-cols-2 md:gap-12">
             <div className="flex flex-col justify-center space-y-4">
               <div className="flex items-center gap-2">
-                <Briefcase className="h-8 w-8 text-primary" />
+                <Briefcase className="h-8 w-8 text-secondary" />
                 <h3 className="text-2xl font-bold">Startups & Entrepreneurs</h3>
               </div>
               <p className="text-muted-foreground">
@@ -110,7 +110,7 @@ export function ClientsList() {
             </div>
             <div className="flex flex-col justify-center space-y-4 md:order-1">
               <div className="flex items-center gap-2">
-                <Building className="h-8 w-8 text-primary" />
+                <Building className="h-8 w-8 text-secondary" />
                 <h3 className="text-2xl font-bold">Corporate Professionals</h3>
               </div>
               <p className="text-muted-foreground">
@@ -129,7 +129,7 @@ export function ClientsList() {
           <div className="grid gap-6 md:grid-cols-2 md:gap-12">
             <div className="flex flex-col justify-center space-y-4">
               <div className="flex items-center gap-2">
-                <GraduationCap className="h-8 w-8 text-primary" />
+                <GraduationCap className="h-8 w-8 text-secondary" />
                 <h3 className="text-2xl font-bold">Students & Researchers</h3>
               </div>
               <p className="text-muted-foreground">

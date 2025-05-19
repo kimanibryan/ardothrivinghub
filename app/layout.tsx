@@ -9,9 +9,12 @@ import { Footer } from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Ardo Thriving Hub",
+  title: "Ardo Thrive Hub",
   description:
     "A women-led, dynamic, and comprehensive space designed to empower both individuals and businesses to thrive.",
+  icons: {
+    icon: '/images/favicon.ico',
+  },
 }
 
 export default function RootLayout({

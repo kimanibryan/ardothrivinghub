@@ -1,8 +1,8 @@
 {
-  "/not-found": "app/not-found.js",
-  "/workspaces/page": "app/workspaces/page.js",
   "/about/page": "app/about/page.js",
+  "/services/page": "app/services/page.js",
+  "/amenities/page": "app/amenities/page.js",
+  "/workspaces/page": "app/workspaces/page.js",
   "/clients/page": "app/clients/page.js",
-  "/page": "app/page.js",
-  "/services/page": "app/services/page.js"
+  "/contact/page": "app/contact/page.js"
 }

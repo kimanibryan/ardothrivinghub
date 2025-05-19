@@ -15,13 +15,13 @@ export function AmenitiesGallery() {
         <div className="mx-auto grid max-w-5xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
           <div className="overflow-hidden rounded-lg">
             <Image
-              src="/images/Reception area.jpg"
+              src="/images/Reception area (1).jpg"
               alt="Reception Area"
               width={600}
               height={400}
               className="aspect-video object-cover"
             />
-            <p className="mt-2 text-center text-sm font-medium">Reception Area</p>
+            <p className="mt-2 text-center text-primary text-sm font-medium">Reception Area</p>
           </div>
           <div className="overflow-hidden rounded-lg">
             <Image
@@ -31,7 +31,7 @@ export function AmenitiesGallery() {
               height={400}
               className="aspect-video object-cover"
             />
-            <p className="mt-2 text-center text-sm font-medium">Coworking Space</p>
+            <p className="mt-2 text-center text-primary text-sm font-medium">Coworking Space</p>
           </div>
           <div className="overflow-hidden rounded-lg">
             <Image
@@ -41,7 +41,7 @@ export function AmenitiesGallery() {
               height={400}
               className="aspect-video object-cover"
             />
-            <p className="mt-2 text-center text-sm font-medium">Meeting Room</p>
+            <p className="mt-2 text-center text-primary text-sm font-medium">Meeting Room</p>
           </div>
           <div className="overflow-hidden rounded-lg">
             <Image
@@ -51,7 +51,7 @@ export function AmenitiesGallery() {
               height={400}
               className="aspect-video object-cover"
             />
-            <p className="mt-2 text-center text-sm font-medium">Lounge Area</p>
+            <p className="mt-2 text-center text-primary text-sm font-medium">Lounge Area</p>
           </div>
           <div className="overflow-hidden rounded-lg">
             <Image
@@ -61,7 +61,7 @@ export function AmenitiesGallery() {
               height={400}
               className="aspect-video object-cover"
             />
-            <p className="mt-2 text-center text-sm font-medium">Kitchen Facilities</p>
+            <p className="mt-2 text-center text-primary text-sm font-medium">Kitchen Facilities</p>
           </div>
           <div className="overflow-hidden rounded-lg">
             <Image
@@ -71,7 +71,7 @@ export function AmenitiesGallery() {
               height={400}
               className="aspect-video object-cover"
             />
-            <p className="mt-2 text-center text-sm font-medium">Phone Booths</p>
+            <p className="mt-2 text-center text-primary text-sm font-medium">Phone Booths</p>
           </div>
         </div>
       </div>

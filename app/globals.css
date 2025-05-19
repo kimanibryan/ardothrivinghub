@@ -51,48 +51,10 @@
 
 @layer base {
   * {
-    border-color: hsl(var(--border));
+    @apply border-border;
   }
   body {
-    background-color: hsl(var(--background));
-    color: hsl(var(--foreground));
+    @apply bg-background text-foreground;
   }
 }
 
-@layer components {
-  .card {
-    background-color: hsl(var(--card));
-    color: hsl(var(--card-foreground));
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-    padding: 1rem;
-  }
-  .card-header {
-    font-size: 1.125rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-  }
-  .card-content {
-    font-size: 0.875rem;
-    color: hsl(var(--muted-foreground));
-  }
-}
-
-@layer components {
-  .popover {
-    background-color: hsl(var(--popover));
-    color: hsl(var(--popover-foreground));
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-    padding: 1rem;
-  }
-  .popover-header {
-    font-size: 1.125rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-  }
-  .popover-content {
-    font-size: 0.875rem;
-    color: hsl(var(--muted-foreground));
-  }
-}

@@ -11,10 +11,11 @@ export function Footer() {
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ardo%20thrive%20logo-YI9y8sxj1i4zWHe1Vw39gkXryLgixA.png"
               alt="Ardo Thriving Hub Logo"
-              width={100}
-              height={40}
+              width={50}
+              height={50}
               className="h-auto"
             />
+            <h4 className="text-lg text-primary font-bold">Ardo Thrive Hub</h4>
           </Link>
           <p className="text-sm text-muted-foreground">
             Ardo Thrive Hub transforms workspaces into growth ecosystems where professionals flourish. Beyond desks

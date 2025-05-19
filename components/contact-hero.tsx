@@ -24,7 +24,7 @@ export function ContactHero() {
           <div className="flex items-center justify-center">
             <div className="relative h-[400px] w-full overflow-hidden rounded-lg">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src="/images/Reception area.jpg"
                 alt="Ardo Thriving Hub Contact"
                 fill
                 className="object-cover"
