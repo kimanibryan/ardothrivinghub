@@ -1,28 +1,32 @@
 import type React from "react"
-import { MainNav } from "../components/main-nav"
-import { SiteFooter } from "../components/site-footer"
-import "@/app/globals.css"
-import { ThemeProvider } from "../components/theme-provider"
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import "./globals.css"
+import { ThemeProvider } from "@/components/theme-provider"
+import { Header } from "@/components/header"
+import { Footer } from "@/components/footer"
 
-export const metadata = {
-  title: "Ardo Thriving Hub - Community Support & Resources",
+const inter = Inter({ subsets: ["latin"] })
+
+export const metadata: Metadata = {
+  title: "Ardo Thriving Hub",
   description:
-    "A vibrant community hub offering programs, resources, and support to help individuals and families thrive.",
+    "A women-led, dynamic, and comprehensive space designed to empower both individuals and businesses to thrive.",
 }
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode
-}) {
+}>) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" suppressHydrationWarning>
+      <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-          <div className="relative flex min-h-screen flex-col">
-            <MainNav />
+          <div className="flex min-h-screen flex-col">
+            <Header />
             <main className="flex-1">{children}</main>
-            <SiteFooter />
+            <Footer />
           </div>
         </ThemeProvider>
       </body>
