@@ -10,7 +10,6 @@ import {
 } from "@/components/ui/select"
 import { countries } from "@/lib/countries"
 import { useState } from "react"
-import emailjs from "@emailjs/browser"
 
 export function ContactForm() {
   const [formData, setFormData] = useState({
@@ -22,20 +21,41 @@ export function ContactForm() {
     message: '',
   })
 
+  const [loading, setLoading] = useState(false)
+  const [success, setSuccess] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData(prev => ({ ...prev, [e.target.id]: e.target.value }))
+  }
+
+  const handleSelectChange = (value: string) => {
+    setFormData(prev => ({ ...prev, country: value }))
+  }
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    setLoading(true)
+    setSuccess(false)
+    setError(null)
 
-    const response = await fetch('/api/contact', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(formData),
-    })
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      })
 
-    if (response.ok) {
-      alert('Message sent!')
-      setFormData({ firstName: '', lastName: '', email: '', country: '', phone: '', message: '' })
-    } else {
-      alert('Failed to send message.')
+      if (response.ok) {
+        setSuccess(true)
+        setFormData({ firstName: '', lastName: '', email: '', country: '', phone: '', message: '' })
+      } else {
+        const errData = await response.json()
+        setError(errData.message || 'Failed to send message.')
+      }
+    } catch (err: any) {
+      setError(err.message || 'Something went wrong.')
+    } finally {
+      setLoading(false)
     }
   }
 
@@ -55,7 +75,7 @@ export function ContactForm() {
             <label htmlFor="last-name" className="text-sm font-medium">
               Last Name
             </label>
-            <Input id="last-name" placeholder="Enter your last name" value={formData.firstName} onChange={handleChange} />
+            <Input id="last-name" placeholder="Enter your last name" value={formData.lastName} onChange={handleChange} />
           </div>
         </div>
 
@@ -64,7 +84,7 @@ export function ContactForm() {
           <label htmlFor="email" className="text-sm font-medium">
             Email
           </label>
-          <Input id="email" type="email" placeholder="Enter your email" value={formData.firstName} onChange={handleChange} />
+          <Input id="email" type="email" placeholder="Enter your email" value={formData.email} onChange={handleChange} />
         </div>
 
         {/* Country */}
@@ -89,9 +109,9 @@ export function ContactForm() {
         {/* Phone */}
         <div className="space-y-2">
           <label htmlFor="phone" className="text-sm font-medium">
-            Phone
+            Phone Number
           </label>
-          <Input id="phone" type="tel" placeholder="Enter your phone number" value={formData.firstName} onChange={handleChange} />
+          <Input id="phone" type="tel" placeholder="Enter your phone number" value={formData.phone} onChange={handleChange} />
         </div>
 
         {/* Message */}
