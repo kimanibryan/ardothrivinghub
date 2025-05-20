@@ -30,7 +30,7 @@ export function ContactInfo() {
           <Mail className="h-6 w-6 text-primary" />
           <div>
             <h4 className="font-bold">Email</h4>
-            <p className="text-muted-foreground break-words">info@ath-som.org</p>
+            <p className="text-muted-foreground break-words">info@ardothriving.org</p>
           </div>
         </div>
 
