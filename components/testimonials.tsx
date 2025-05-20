@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Quote } from "lucide-react"
+import Image from "next/image";
 
 export function Testimonials() {
   return (
@@ -26,9 +27,15 @@ export function Testimonials() {
                 for growth."
               </p>
               <div className="flex items-center gap-4">
-                <div className="rounded-full bg-muted h-10 w-10"></div>
+                <Image
+                  src="/images/woman.png"
+                  alt="Sade Khayre"
+                  width={40}
+                  height={40}
+                  className="rounded-full object-cover"
+                />
                 <div>
-                  <p className="font-medium">Sade Khayre</p>
+                  <p className="font-medium">Ayaan Yabaal</p>
                   <p className="text-sm text-muted-foreground">Freelance Designer</p>
                 </div>
               </div>
@@ -43,9 +50,15 @@ export function Testimonials() {
                 approach brings a unique perspective that's refreshing in the business world."
               </p>
               <div className="flex items-center gap-4">
-                <div className="rounded-full bg-muted h-10 w-10"></div>
+                <Image
+                  src="/images/woman2.png"
+                  alt="Sade Khayre"
+                  width={40}
+                  height={40}
+                  className="rounded-full object-cover"
+                />
                 <div>
-                  <p className="font-medium">Bilqiiis Samakaab</p>
+                  <p className="font-medium">Deeqa Samakaab</p>
                   <p className="text-sm text-muted-foreground">Tech Startup CEO</p>
                 </div>
               </div>

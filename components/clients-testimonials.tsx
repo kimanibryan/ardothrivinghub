@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Quote } from "lucide-react"
+import Image from "next/image";
 
 export function ClientsTestimonials() {
   return (
@@ -23,9 +24,15 @@ export function ClientsTestimonials() {
                 for growth."
               </p>
               <div className="flex items-center gap-4">
-                <div className="rounded-full bg-muted h-10 w-10"></div>
+                <Image
+                  src="/images/woman.png"
+                  alt="Ayaan Yabaal"
+                  width={30}
+                  height={30}
+                  className="rounded-full object-cover"
+                />
                 <div>
-                  <p className="font-medium">Sade Khayre</p>
+                  <p className="font-medium">Ayaan Yabaal</p>
                   <p className="text-sm text-muted-foreground">Freelance Designer</p>
                 </div>
               </div>
@@ -40,9 +47,15 @@ export function ClientsTestimonials() {
                 approach brings a unique perspective that's refreshing in the business world."
               </p>
               <div className="flex items-center gap-4">
-                <div className="rounded-full bg-muted h-10 w-10"></div>
+                <Image
+                  src="/images/woman1.png"
+                  alt="Deeqa Samakaab"
+                  width={30}
+                  height={30}
+                  className="rounded-full object-cover"
+                />
                 <div>
-                  <p className="font-medium">Bilqiiis Samakaab</p>
+                  <p className="font-medium">Deeqa Samakaab</p>
                   <p className="text-sm text-muted-foreground">Tech Startup CEO</p>
                 </div>
               </div>
@@ -57,7 +70,13 @@ export function ClientsTestimonials() {
                 professionals and resources that support our mission."
               </p>
               <div className="flex items-center gap-4">
-                <div className="rounded-full bg-muted h-10 w-10"></div>
+                <Image
+                  src="/images/woman2.png"
+                  alt="Amina Osman"
+                  width={30}
+                  height={30}
+                  className="rounded-full object-cover"
+                />
                 <div>
                   <p className="font-medium">Amina Osman</p>
                   <p className="text-sm text-muted-foreground">NGO Program Manager</p>
@@ -74,9 +93,15 @@ export function ClientsTestimonials() {
                 amenities and support have made a significant difference in my academic journey."
               </p>
               <div className="flex items-center gap-4">
-                <div className="rounded-full bg-muted h-10 w-10"></div>
+                <Image
+                  src="/images/man.png"
+                  alt="Sade Khayre"
+                  width={30}
+                  height={30}
+                  className="rounded-full object-cover"
+                />
                 <div>
-                  <p className="font-medium">Ayaan Yabaal</p>
+                  <p className="font-medium">Sade Khayre</p>
                   <p className="text-sm text-muted-foreground">PhD Candidate</p>
                 </div>
               </div>
