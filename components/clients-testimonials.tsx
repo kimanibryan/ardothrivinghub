@@ -25,7 +25,7 @@ export function ClientsTestimonials() {
               <div className="flex items-center gap-4">
                 <div className="rounded-full bg-muted h-10 w-10"></div>
                 <div>
-                  <p className="font-medium">Sarah Johnson</p>
+                  <p className="font-medium">Sade Khayre</p>
                   <p className="text-sm text-muted-foreground">Freelance Designer</p>
                 </div>
               </div>
@@ -42,7 +42,7 @@ export function ClientsTestimonials() {
               <div className="flex items-center gap-4">
                 <div className="rounded-full bg-muted h-10 w-10"></div>
                 <div>
-                  <p className="font-medium">Michael Chen</p>
+                  <p className="font-medium">Bilqiiis Samakaab</p>
                   <p className="text-sm text-muted-foreground">Tech Startup CEO</p>
                 </div>
               </div>
@@ -76,7 +76,7 @@ export function ClientsTestimonials() {
               <div className="flex items-center gap-4">
                 <div className="rounded-full bg-muted h-10 w-10"></div>
                 <div>
-                  <p className="font-medium">David Mwangi</p>
+                  <p className="font-medium">Ayaan Yabaal</p>
                   <p className="text-sm text-muted-foreground">PhD Candidate</p>
                 </div>
               </div>

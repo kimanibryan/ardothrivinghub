@@ -1,4 +1,4 @@
-import Image from "next/image"
+import { HeartHandshake, Store, Landmark } from "lucide-react";
 
 export function ClientsPartners() {
   return (
@@ -12,57 +12,21 @@ export function ClientsPartners() {
             </p>
           </div>
         </div>
-        <div className="mx-auto grid max-w-5xl gap-8 py-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto grid max-w-4xl gap-8 py-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center">
           <div className="flex flex-col items-center space-y-2">
-            <div className="relative h-20 w-40">
-              <Image
-                src="/images/logo-black.png"
-                alt="Partner Logo"
-                width={160}
-                height={80}
-                className="object-contain"
-              />
-            </div>
-            <p className="text-center font-medium">Women's Business Association</p>
+            <HeartHandshake className="h-16 w-16 text-secondary" />
+            <p className="text-center font-medium">NGO's</p>
           </div>
           <div className="flex flex-col items-center space-y-2">
-            <div className="relative h-20 w-40">
-              <Image
-                src="/images/netflix.svg"
-                alt="Partner Logo"
-                width={160}
-                height={80}
-                className="object-contain"
-              />
-            </div>
-            <p className="text-center font-medium">International NGO</p>
+            <Store className="h-16 w-16 text-secondary" />
+            <p className="text-center font-medium">Small Businesses</p>
           </div>
           <div className="flex flex-col items-center space-y-2">
-            <div className="relative h-20 w-40">
-              <Image
-                src="/images/coinbase.svg"
-                alt="Partner Logo"
-                width={160}
-                height={80}
-                className="object-contain"
-              />
-            </div>
-            <p className="text-center font-medium">Youth Development Program</p>
-          </div>
-          <div className="flex flex-col items-center space-y-2">
-            <div className="relative h-20 w-40">
-              <Image
-                src="/images/instagram.svg"
-                alt="Partner Logo"
-                width={160}
-                height={80}
-                className="object-contain"
-              />
-            </div>
-            <p className="text-center font-medium">Entrepreneurship Network</p>
+            <Landmark className="h-16 w-16 text-secondary" />
+            <p className="text-center font-medium">Private Partners</p>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
