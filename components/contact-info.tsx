@@ -10,8 +10,8 @@ export function ContactInfo() {
           <MapPin className="h-6 w-6 text-primary" />
           <div>
             <h4 className="font-bold">Our Location</h4>
-            <p className="text-muted-foreground">123 Business Avenue, City Center</p>
-            <p className="text-muted-foreground">Nairobi, Kenya</p>
+            <p className="text-muted-foreground">Shacab Mall, floor 3, room 321</p>
+            <p className="text-muted-foreground">Hargeisa, Somalia</p>
           </div>
         </div>
 
@@ -20,7 +20,8 @@ export function ContactInfo() {
           <Phone className="h-6 w-6 text-primary" />
           <div>
             <h4 className="font-bold">Phone</h4>
-            <p className="text-muted-foreground">+123 456 7890</p>
+            <p className="text-muted-foreground">+252634044707</p>
+            <p className="text-muted-foreground">+252634044383</p>
           </div>
         </div>
 

@@ -17,14 +17,14 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
+      <div className="container flex h-24 items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ardo%20thrive%20logo-YI9y8sxj1i4zWHe1Vw39gkXryLgixA.png"
             alt="Ardo Thriving Hub Logo"
-            width={60}
-            height={20}
-            className="h-10 w-auto"
+            width={120}
+            height={80}
+            className="h-14 w-auto md:h-16"
           />
         </Link>
         <nav className="hidden md:flex gap-6">

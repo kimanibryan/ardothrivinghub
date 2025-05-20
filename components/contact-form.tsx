@@ -1,7 +1,14 @@
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
+import { countries } from "@/lib/countries"
 
 export function ContactForm() {
   return (
@@ -32,6 +39,25 @@ export function ContactForm() {
           <Input id="email" type="email" placeholder="Enter your email" />
         </div>
 
+        {/* Country */}
+        <div className="space-y-2">
+          <label htmlFor="country" className="text-sm font-medium">
+            Country
+          </label>
+          <Select>
+            <SelectTrigger id="country">
+              <SelectValue placeholder="Select your country" />
+            </SelectTrigger>
+            <SelectContent>
+              {countries.map((country) => (
+                <SelectItem key={country} value={country}>
+                  {country}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
         {/* Phone */}
         <div className="space-y-2">
           <label htmlFor="phone" className="text-sm font-medium">
@@ -40,33 +66,16 @@ export function ContactForm() {
           <Input id="phone" type="tel" placeholder="Enter your phone number" />
         </div>
 
-        {/* Interest Select */}
-        <div className="space-y-2">
-          <label htmlFor="interest" className="text-sm font-medium">
-            I'm interested in
-          </label>
-          <Select>
-            <SelectTrigger id="interest">
-              <SelectValue placeholder="Select an option" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="hot-desk">Hot Desk</SelectItem>
-              <SelectItem value="dedicated-desk">Dedicated Desk</SelectItem>
-              <SelectItem value="private-office">Private Office</SelectItem>
-              <SelectItem value="meeting-room">Meeting Room</SelectItem>
-              <SelectItem value="event-space">Event Space</SelectItem>
-              <SelectItem value="virtual-office">Virtual Office</SelectItem>
-              <SelectItem value="other">Other Services</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
-
         {/* Message */}
         <div className="space-y-2">
           <label htmlFor="message" className="text-sm font-medium">
             Message
           </label>
-          <Textarea id="message" placeholder="Tell us about your needs or ask us a question" className="min-h-[120px]" />
+          <Textarea
+            id="message"
+            placeholder="Tell us about your needs or ask us a question"
+            className="min-h-[120px]"
+          />
         </div>
 
         {/* Submit Button */}
