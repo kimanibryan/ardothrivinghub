@@ -9,8 +9,36 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 import { countries } from "@/lib/countries"
+import { useState } from "react"
+import emailjs from "@emailjs/browser"
 
 export function ContactForm() {
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    country: '',
+    phone: '',
+    message: '',
+  })
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+
+    const response = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    })
+
+    if (response.ok) {
+      alert('Message sent!')
+      setFormData({ firstName: '', lastName: '', email: '', country: '', phone: '', message: '' })
+    } else {
+      alert('Failed to send message.')
+    }
+  }
+
   return (
     <div className="rounded-lg border bg-background p-6 sm:p-8 shadow-sm w-full max-w-3xl mx-auto">
       <h3 className="text-2xl font-bold mb-6 text-center sm:text-left">Send us a Message</h3>
@@ -21,13 +49,13 @@ export function ContactForm() {
             <label htmlFor="first-name" className="text-sm font-medium">
               First Name
             </label>
-            <Input id="first-name" placeholder="Enter your first name" />
+            <Input id="first-name" placeholder="Enter your first name" value={formData.firstName} onChange={handleChange} />
           </div>
           <div className="space-y-2">
             <label htmlFor="last-name" className="text-sm font-medium">
               Last Name
             </label>
-            <Input id="last-name" placeholder="Enter your last name" />
+            <Input id="last-name" placeholder="Enter your last name" value={formData.firstName} onChange={handleChange} />
           </div>
         </div>
 
@@ -36,7 +64,7 @@ export function ContactForm() {
           <label htmlFor="email" className="text-sm font-medium">
             Email
           </label>
-          <Input id="email" type="email" placeholder="Enter your email" />
+          <Input id="email" type="email" placeholder="Enter your email" value={formData.firstName} onChange={handleChange} />
         </div>
 
         {/* Country */}
@@ -44,7 +72,7 @@ export function ContactForm() {
           <label htmlFor="country" className="text-sm font-medium">
             Country
           </label>
-          <Select>
+          <Select onValueChange={handleSelectChange}>
             <SelectTrigger id="country">
               <SelectValue placeholder="Select your country" />
             </SelectTrigger>
@@ -63,7 +91,7 @@ export function ContactForm() {
           <label htmlFor="phone" className="text-sm font-medium">
             Phone
           </label>
-          <Input id="phone" type="tel" placeholder="Enter your phone number" />
+          <Input id="phone" type="tel" placeholder="Enter your phone number" value={formData.firstName} onChange={handleChange} />
         </div>
 
         {/* Message */}
@@ -75,13 +103,17 @@ export function ContactForm() {
             id="message"
             placeholder="Tell us about your needs or ask us a question"
             className="min-h-[120px]"
+            value={formData.message}
+            onChange={handleChange}
           />
         </div>
 
         {/* Submit Button */}
-        <Button type="submit" className="w-full">
-          Send Message
+        <Button type="submit" className="w-full" onClick={handleSubmit} disabled={loading}>
+          {loading ? "Sending..." : "Send Message"}
         </Button>
+        {success && <p className="text-green-600 mt-2">Message sent successfully!</p>}
+        {error && <p className="text-red-600 mt-2">{error}</p>}
       </form>
     </div>
   )
