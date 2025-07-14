@@ -17,25 +17,32 @@ export function FeaturedServices() {
             </p>
           </div>
         </div>
-        <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 md:grid-cols-2 lg:gap-12">
+        <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 md:grid-cols-3 lg:gap-12">
           <div className="flex flex-col justify-center space-y-4 rounded-lg border bg-background p-6 shadow-sm">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="h-5 w-5 text-primary" />
-              <h3 className="text-xl font-bold">Research Consultancy</h3>
+              <h3 className="text-xl font-bold">Training Programs</h3>
             </div>
             <p className="text-muted-foreground">
-              Professional guidance and support in conducting research, assessments, and data analysis for your
-              projects.
+              Comprehensive training programs to enhance skills and knowledge for personal and professional growth.
             </p>
           </div>
           <div className="flex flex-col justify-center space-y-4 rounded-lg border bg-background p-6 shadow-sm">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="h-5 w-5 text-primary" />
-              <h3 className="text-xl font-bold">Psycho-social & Counseling</h3>
+              <h3 className="text-xl font-bold">Research Services</h3>
             </div>
             <p className="text-muted-foreground">
-              Professional counseling and psycho-social support services to promote mental wellbeing and personal
-              growth.
+              Professional research services including data collection, analysis, and reporting for informed decision making.
+            </p>
+          </div>
+          <div className="flex flex-col justify-center space-y-4 rounded-lg border bg-background p-6 shadow-sm">
+            <div className="flex items-center gap-2">
+              <CheckCircle2 className="h-5 w-5 text-primary" />
+              <h3 className="text-xl font-bold">Assessment Services</h3>
+            </div>
+            <p className="text-muted-foreground">
+              Comprehensive assessment services to evaluate performance, identify strengths, and areas for improvement.
             </p>
           </div>
         </div>

@@ -15,34 +15,6 @@ export function ServicesList() {
         <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 md:grid-cols-2 lg:gap-12">
           <div className="flex flex-col justify-center space-y-4 rounded-lg border bg-background p-6 shadow-sm">
             <div className="flex items-center gap-2">
-              <FileText className="h-8 w-8 text-primary" />
-              <h3 className="text-xl font-bold">Research Consultancy</h3>
-            </div>
-            <p className="text-muted-foreground">
-              Our research consultancy services provide professional guidance and support in conducting research,
-              assessments, and data analysis for your projects.
-            </p>
-            <ul className="space-y-2 mt-4">
-              <li className="flex items-start gap-2">
-                <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>Needs assessments and baseline studies</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>Market research and competitive analysis</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>Program evaluations and impact assessments</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>Data collection, analysis, and reporting</span>
-              </li>
-            </ul>
-          </div>
-          <div className="flex flex-col justify-center space-y-4 rounded-lg border bg-background p-6 shadow-sm">
-            <div className="flex items-center gap-2">
               <Brain className="h-8 w-8 text-primary" />
               <h3 className="text-xl font-bold">Psycho-social & Counseling</h3>
             </div>
@@ -72,17 +44,86 @@ export function ServicesList() {
           <div className="flex flex-col justify-center space-y-4 rounded-lg border bg-background p-6 shadow-sm">
             <div className="flex items-center gap-2">
               <Users className="h-8 w-8 text-primary" />
-              <h3 className="text-xl font-bold">Capacity Building</h3>
+              <h3 className="text-xl font-bold">Training Programs</h3>
             </div>
             <p className="text-muted-foreground">
-              Our training programs and workshops are designed to enhance skills and knowledge for professionals in
-              various fields.
+              We offer a range of training programs that meet the needs of individuals and organizations to enhance skills and knowledge.
             </p>
             <ul className="space-y-2 mt-4">
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                 <span>Leadership and management training</span>
               </li>
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>Customized training solutions</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>Professional development workshops</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>Skills enhancement programs</span>
+              </li>
+            </ul>
+          </div>
+          <div className="flex flex-col justify-center space-y-4 rounded-lg border bg-background p-6 shadow-sm">
+            <div className="flex items-center gap-2">
+              <FileText className="h-8 w-8 text-primary" />
+              <h3 className="text-xl font-bold">Research Services</h3>
+            </div>
+            <p className="text-muted-foreground">
+              Professional research support for your projects and initiatives.
+            </p>
+            <ul className="space-y-2 mt-4">
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>Market research and analysis</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>Qualitative and quantitative research</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>Data collection and interpretation</span>
+              </li>
+            </ul>
+          </div>
+          <div className="flex flex-col justify-center space-y-4 rounded-lg border bg-background p-6 shadow-sm">
+            <div className="flex items-center gap-2">
+              <Brain className="h-8 w-8 text-primary" />
+              <h3 className="text-xl font-bold">Assessment Services</h3>
+            </div>
+            <p className="text-muted-foreground">
+              Comprehensive assessments to measure performance and identify areas for improvement.
+            </p>
+            <ul className="space-y-2 mt-4">
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>Performance evaluations</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>Needs assessments</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>Impact assessments</span>
+              </li>
+            </ul>
+          </div>
+          <div className="flex flex-col justify-center space-y-4 rounded-lg border bg-background p-6 shadow-sm">
+            <div className="flex items-center gap-2">
+              <Users className="h-8 w-8 text-primary" />
+              <h3 className="text-xl font-bold">Capacity Building</h3>
+            </div>
+            <p className="text-muted-foreground">
+              Our workshops are designed to promote personal and professional growth for professionals in
+              different fields.
+            </p>
+            <ul className="space-y-2 mt-4">
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                 <span>Digital skills and technology workshops</span>
@@ -94,6 +135,10 @@ export function ServicesList() {
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                 <span>Project management and organizational development</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>Team building and collaboration</span>
               </li>
             </ul>
           </div>

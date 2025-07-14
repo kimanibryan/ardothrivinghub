@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export function Hero() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-background to-muted">
+    <section className="w-full pt-2 md:pt-4 lg:pt-8 pb-8 md:pb-16 lg:pb-32 bg-gradient-to-b from-background to-muted">
       <div className="container px-4 md:px-6">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
           {/* Text Content */}
