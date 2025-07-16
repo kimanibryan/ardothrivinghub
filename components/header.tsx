@@ -65,6 +65,12 @@ export function Header() {
             Clients
           </Link>
           <Link
+            href="/events"
+            className={`text-sm font-medium transition-colors ${isActive("/events") ? "text-primary" : "hover:text-primary"}`}
+          >
+            Events
+          </Link>
+          <Link
             href="/contact"
             className={`text-sm font-medium transition-colors ${isActive("/contact") ? "text-primary" : "hover:text-primary"}`}
           >
@@ -123,6 +129,13 @@ export function Header() {
             onClick={() => setIsMenuOpen(false)}
           >
             Clients
+          </Link>
+          <Link
+            href="/events"
+            className={`text-lg font-medium transition-colors ${isActive("/events") ? "text-primary" : "hover:text-primary"}`}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Events
           </Link>
           <Link
             href="/contact"
