@@ -15,7 +15,8 @@ export function Hero() {
               </h1>
               <p className="max-w-xl mx-auto lg:mx-0 text-muted-foreground text-base sm:text-lg md:text-xl">
                 A women-led, dynamic, and comprehensive space designed to empower both individuals and businesses to
-                thrive.
+                thrive. We are committed to creating a supportive and inclusive environment where everyone can grow and
+                succeed.
               </p>
             </div>
             <div className="flex flex-col gap-3 sm:flex-row justify-center lg:justify-start">

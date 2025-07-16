@@ -118,7 +118,7 @@ export function Footer() {
           <p className="text-xs text-muted-foreground">
             &copy; {new Date().getFullYear()} Ardo Thrive Hub. All rights reserved.
           </p>
-          <p className="text-xs text-muted-foreground">Designed By GEBRA Enterprises for empowering professionals.
+          <p className="text-xs text-muted-foreground">Designed By <a href="https://gebraenterprises.vercel.app" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">GEBRA Enterprises</a> for empowering professionals.
           </p>
         </div>
       </div>

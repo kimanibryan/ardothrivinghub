@@ -19,8 +19,15 @@ export function ContactInfo() {
         <div className="flex flex-col sm:flex-row sm:items-start gap-3">
           <Phone className="h-6 w-6 text-primary" />
           <div>
-            <h4 className="font-bold">Phone</h4>
-            <p className="text-muted-foreground">+252634044707</p>
+            <h3 className="font-bold">Phone</h3>
+            <a 
+              href="https://wa.me/252634044707" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:underline"
+            >
+              +252 63 4044707
+            </a>
             <p className="text-muted-foreground">+2522634044383</p>
           </div>
         </div>

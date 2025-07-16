@@ -21,7 +21,7 @@ export function FeaturedWorkspaces() {
           <div className="group relative overflow-hidden rounded-lg border bg-background shadow-sm transition-all hover:shadow-md">
             <div className="aspect-video w-full overflow-hidden">
               <Image
-                src="/images/Premium Workspace Amenities in a hub (2).jpg"
+                src="/images/double.jpg"
                 alt="Hot Desk"
                 width={500}
                 height={300}

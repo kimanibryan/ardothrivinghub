@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function ServicesHero() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+    <section className="w-full py-8 md:py-12 lg:py-16 bg-muted">
       <div className="container px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
           <div className="flex flex-col justify-center space-y-4">

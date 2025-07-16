@@ -31,7 +31,14 @@ export function Contact() {
               <Phone className="h-6 w-6 text-primary flex-shrink-0 mt-0.5" />
               <div>
                 <h3 className="font-bold">Phone</h3>
-                <p className="text-sm text-muted-foreground">+123 456 7890</p>
+                <a 
+                  href="https://wa.me/252634044707" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:underline"
+                >
+                  +252 63 4044707
+                </a>
               </div>
             </div>
             <div className="flex items-start space-x-4">

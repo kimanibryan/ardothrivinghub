@@ -71,7 +71,7 @@ export function WorkspacesList() {
               </ul>
             </div>
             <div className="relative h-[300px] overflow-hidden rounded-lg md:order-2">
-              <Image src="/images/Dedicated Desks workspace solution in a hub (1).jpg" alt="Dedicated Desks" fill className="object-cover" />
+              <Image src="/images/single space.jpg" alt="Dedicated Desks" fill className="object-cover" />
             </div>
           </div>
           <div className="grid gap-6 md:grid-cols-2 md:gap-12">
@@ -191,7 +191,7 @@ export function WorkspacesList() {
               </ul>
             </div>
             <div className="relative h-[300px] overflow-hidden rounded-lg md:order-2">
-              <Image src="/images/Virtual Office Services.jpg" alt="Virtual Office" fill className="object-cover" />
+              <Image src="/images/single 1.jpg" alt="Virtual Office" fill className="object-cover" />
             </div>
           </div>
         </div>
