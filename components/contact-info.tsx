@@ -28,7 +28,8 @@ export function ContactInfo() {
             >
               +252 63 4044707
             </a>
-            <p className="text-muted-foreground">+2522634044383</p>
+            <p className="text-muted-foreground">0634725880</p>
+            <p className="text-muted-foreground">0634044383</p>
           </div>
         </div>
 
